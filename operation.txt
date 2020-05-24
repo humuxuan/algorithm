@@ -1,1 +1,14 @@
 git 基本操作和原理
+
+git 分为三个步骤：本体仓库->缓冲区->github 服务器
+git 主要操作指令：
+git status :获取当前状态
+git add git operation.txt:把文件发送到本地仓库
+git commit -m xxxxxxxx：提交缓冲区并且写注释
+git remote add origin https://github.com/humuxuan/algorithm.git ：与网址做关联
+ git push -u origin master：发送到服务器
+
+
+
+
+
